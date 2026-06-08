@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Allow: /pricing
+
+Disallow: /dashboard
+Disallow: /api/
+Disallow: /auth/
+
+Sitemap: https://solvr.ai/sitemap.xml

@@ -1,0 +1,153 @@
+PHYSICS FORMULA REFERENCE SHEET
+For use with NCERT, CBSE, IGCSE, AP and IB curricula
+
+═══════════════════════════════════════════════════════════════
+MECHANICS
+═══════════════════════════════════════════════════════════════
+
+KINEMATICS (constant acceleration)
+  v = u + at
+  s = ut + ½at²
+  v² = u² + 2as
+  s = (u + v)/2 × t
+  Where: u = initial velocity, v = final velocity, a = acceleration, t = time, s = displacement
+
+FREE FALL
+  g = 9.8 m/s² (use 10 m/s² for quick estimates)
+  For object dropped from rest: v = gt, h = ½gt²
+  Time to fall height h: t = √(2h/g)
+
+NEWTON'S LAWS
+  First Law:  An object stays at rest or constant velocity unless acted on by a net force
+  Second Law: F = ma  (Net force = mass × acceleration)
+  Third Law:  For every action there is an equal and opposite reaction
+
+WEIGHT AND MASS
+  W = mg  (Weight = mass × gravitational field strength)
+  On Earth: g = 9.8 N/kg ≈ 10 N/kg
+
+FRICTION
+  f = μN  (friction force = coefficient of friction × normal force)
+  Static friction: f_s ≤ μ_s × N
+  Kinetic friction: f_k = μ_k × N
+
+MOMENTUM AND IMPULSE
+  p = mv  (momentum = mass × velocity)
+  Impulse = F × t = change in momentum = m(v - u)
+  Conservation of momentum: m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂
+
+WORK, ENERGY AND POWER
+  Work = F × d × cos θ  (force × distance × cosine of angle between them)
+  Kinetic Energy: KE = ½mv²
+  Gravitational Potential Energy: PE = mgh
+  Elastic Potential Energy: PE = ½kx²
+  Conservation of energy: Total energy is constant in a closed system
+  Power: P = W/t = F × v (watts)
+  Efficiency = (useful output energy / total input energy) × 100%
+
+CIRCULAR MOTION
+  Centripetal acceleration: a = v²/r = ω²r
+  Centripetal force: F = mv²/r = mω²r
+  Angular velocity: ω = 2π/T = 2πf
+  Period and frequency: T = 1/f
+
+GRAVITATION
+  Newton's Law: F = Gm₁m₂/r²  (G = 6.67 × 10⁻¹¹ N m² kg⁻²)
+  Gravitational field strength: g = GM/r²
+  Orbital speed: v = √(GM/r)
+  Escape velocity: v = √(2GM/r)
+
+═══════════════════════════════════════════════════════════════
+WAVES AND SOUND
+═══════════════════════════════════════════════════════════════
+
+  Wave speed: v = fλ  (speed = frequency × wavelength)
+  Speed of sound in air: ≈ 340 m/s at room temperature
+  Speed of light: c = 3 × 10⁸ m/s
+  Period and frequency: T = 1/f
+
+DOPPLER EFFECT
+  Observed frequency when source moves toward observer: f' = f × v/(v - v_s)
+  Observed frequency when source moves away: f' = f × v/(v + v_s)
+
+═══════════════════════════════════════════════════════════════
+ELECTRICITY AND MAGNETISM
+═══════════════════════════════════════════════════════════════
+
+OHM'S LAW
+  V = IR  (Voltage = Current × Resistance)
+  I = V/R
+  R = V/I
+
+ELECTRICAL POWER
+  P = IV = I²R = V²/R  (Power = current × voltage)
+  Energy = Power × time = IVt (joules)
+
+SERIES CIRCUITS
+  Total resistance: R_total = R₁ + R₂ + R₃ + ...
+  Same current through all components
+  Voltages add up: V_total = V₁ + V₂ + V₃ + ...
+
+PARALLEL CIRCUITS
+  1/R_total = 1/R₁ + 1/R₂ + 1/R₃ + ...
+  Same voltage across all components
+  Currents add up: I_total = I₁ + I₂ + I₃ + ...
+
+CAPACITORS
+  Q = CV  (charge = capacitance × voltage)
+  Energy stored: E = ½CV² = Q²/2C
+  Series: 1/C_total = 1/C₁ + 1/C₂
+  Parallel: C_total = C₁ + C₂
+
+MAGNETIC FORCE
+  Force on current: F = BIL sin θ
+  Force on charge: F = qvB sin θ
+  Magnetic flux: Φ = BA cos θ
+  EMF induced: ε = -N × ΔΦ/Δt  (Faraday's Law)
+
+═══════════════════════════════════════════════════════════════
+THERMODYNAMICS
+═══════════════════════════════════════════════════════════════
+
+  Heat: Q = mcΔT  (heat = mass × specific heat capacity × temperature change)
+  Specific latent heat: Q = mL
+  Ideal gas law: PV = nRT  (R = 8.314 J mol⁻¹ K⁻¹)
+  Boyle's Law: P₁V₁ = P₂V₂  (constant temperature)
+  Charles's Law: V₁/T₁ = V₂/T₂  (constant pressure)
+  First Law of Thermodynamics: ΔU = Q - W
+  Efficiency of heat engine: η = 1 - T_cold/T_hot
+
+═══════════════════════════════════════════════════════════════
+OPTICS
+═══════════════════════════════════════════════════════════════
+
+  Snell's Law: n₁ sin θ₁ = n₂ sin θ₂
+  Refractive index: n = c/v = sin i / sin r
+  Critical angle: sin C = 1/n  (for total internal reflection)
+  Mirror/lens equation: 1/f = 1/v + 1/u
+  Magnification: m = v/u = image height / object height
+
+═══════════════════════════════════════════════════════════════
+MODERN PHYSICS
+═══════════════════════════════════════════════════════════════
+
+  Photoelectric effect: E = hf = hc/λ
+  Planck's constant: h = 6.63 × 10⁻³⁴ J s
+  de Broglie wavelength: λ = h/mv = h/p
+  Einstein's mass-energy: E = mc²
+  Radioactive decay: N = N₀ × (½)^(t/t½)
+
+═══════════════════════════════════════════════════════════════
+USEFUL CONSTANTS
+═══════════════════════════════════════════════════════════════
+
+  Speed of light:          c = 3.0 × 10⁸ m/s
+  Gravitational constant:  G = 6.67 × 10⁻¹¹ N m² kg⁻²
+  Planck's constant:       h = 6.63 × 10⁻³⁴ J s
+  Electron charge:         e = 1.6 × 10⁻¹⁹ C
+  Electron mass:           m_e = 9.11 × 10⁻³¹ kg
+  Proton mass:             m_p = 1.67 × 10⁻²⁷ kg
+  Avogadro's number:       N_A = 6.02 × 10²³ mol⁻¹
+  Gas constant:            R = 8.314 J mol⁻¹ K⁻¹
+  Boltzmann constant:      k = 1.38 × 10⁻²³ J K⁻¹
+  Atmospheric pressure:    1 atm = 101,325 Pa ≈ 100,000 Pa

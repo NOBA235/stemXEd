@@ -1,0 +1,156 @@
+MATHEMATICS FORMULA REFERENCE SHEET
+For use with NCERT, CBSE, IGCSE, AP, IB and JEE curricula
+
+═══════════════════════════════════════════════════════════════
+ALGEBRA
+═══════════════════════════════════════════════════════════════
+
+QUADRATIC EQUATION ax² + bx + c = 0
+  Quadratic formula: x = (-b ± √(b² - 4ac)) / 2a
+  Discriminant: D = b² - 4ac
+    D > 0: two real distinct roots
+    D = 0: one real repeated root
+    D < 0: no real roots (complex roots)
+  Sum of roots: α + β = -b/a
+  Product of roots: αβ = c/a
+
+FACTORING IDENTITIES
+  (a + b)² = a² + 2ab + b²
+  (a - b)² = a² - 2ab + b²
+  (a + b)(a - b) = a² - b²
+  (a + b)³ = a³ + 3a²b + 3ab² + b³
+  a³ + b³ = (a + b)(a² - ab + b²)
+  a³ - b³ = (a - b)(a² + ab + b²)
+
+INDICES (EXPONENT RULES)
+  aᵐ × aⁿ = aᵐ⁺ⁿ
+  aᵐ ÷ aⁿ = aᵐ⁻ⁿ
+  (aᵐ)ⁿ = aᵐⁿ
+  a⁰ = 1
+  a⁻ⁿ = 1/aⁿ
+  a^(1/n) = ⁿ√a
+  a^(m/n) = ⁿ√(aᵐ)
+
+LOGARITHMS
+  log_a(xy) = log_a(x) + log_a(y)
+  log_a(x/y) = log_a(x) - log_a(y)
+  log_a(xⁿ) = n × log_a(x)
+  Change of base: log_a(x) = log(x)/log(a)
+  log_a(a) = 1
+  log_a(1) = 0
+  ln(eˣ) = x  and  e^(ln x) = x
+
+═══════════════════════════════════════════════════════════════
+GEOMETRY AND TRIGONOMETRY
+═══════════════════════════════════════════════════════════════
+
+CIRCLE
+  Area = πr²
+  Circumference = 2πr = πd
+  Arc length = rθ  (θ in radians)
+  Sector area = ½r²θ
+
+TRIANGLE
+  Area = ½ × base × height
+  Area = ½ab sin C  (two sides and included angle)
+  Pythagoras: a² + b² = c² (right triangle)
+  Sine rule: a/sin A = b/sin B = c/sin C
+  Cosine rule: a² = b² + c² - 2bc cos A
+
+STANDARD SHAPES
+  Rectangle area = length × width
+  Trapezium area = ½(a + b)h
+  Parallelogram area = base × perpendicular height
+  Sphere volume = (4/3)πr³, surface area = 4πr²
+  Cylinder volume = πr²h, curved surface area = 2πrh
+  Cone volume = (1/3)πr²h, slant surface area = πrl
+
+TRIGONOMETRY
+  sin θ = opposite/hypotenuse
+  cos θ = adjacent/hypotenuse
+  tan θ = opposite/adjacent = sin θ/cos θ
+  sin²θ + cos²θ = 1
+  1 + tan²θ = sec²θ
+  1 + cot²θ = cosec²θ
+
+SPECIAL ANGLES
+  θ = 0°:  sin = 0, cos = 1, tan = 0
+  θ = 30°: sin = ½, cos = √3/2, tan = 1/√3
+  θ = 45°: sin = 1/√2, cos = 1/√2, tan = 1
+  θ = 60°: sin = √3/2, cos = ½, tan = √3
+  θ = 90°: sin = 1, cos = 0, tan = undefined
+
+COMPOUND ANGLE FORMULAS
+  sin(A ± B) = sin A cos B ± cos A sin B
+  cos(A ± B) = cos A cos B ∓ sin A sin B
+  sin 2A = 2 sin A cos A
+  cos 2A = cos²A - sin²A = 2cos²A - 1 = 1 - 2sin²A
+
+═══════════════════════════════════════════════════════════════
+CALCULUS
+═══════════════════════════════════════════════════════════════
+
+DIFFERENTIATION — STANDARD RESULTS
+  d/dx (xⁿ) = nxⁿ⁻¹
+  d/dx (eˣ) = eˣ
+  d/dx (aˣ) = aˣ ln a
+  d/dx (ln x) = 1/x
+  d/dx (sin x) = cos x
+  d/dx (cos x) = -sin x
+  d/dx (tan x) = sec²x
+  d/dx (constant) = 0
+
+DIFFERENTIATION RULES
+  Chain rule: dy/dx = dy/du × du/dx
+  Product rule: d/dx(uv) = u(dv/dx) + v(du/dx)
+  Quotient rule: d/dx(u/v) = [v(du/dx) - u(dv/dx)] / v²
+
+INTEGRATION — STANDARD RESULTS
+  ∫ xⁿ dx = xⁿ⁺¹/(n+1) + c  (n ≠ -1)
+  ∫ eˣ dx = eˣ + c
+  ∫ 1/x dx = ln|x| + c
+  ∫ sin x dx = -cos x + c
+  ∫ cos x dx = sin x + c
+  ∫ sec²x dx = tan x + c
+  ∫ a dx = ax + c
+
+INTEGRATION BY PARTS
+  ∫ u dv = uv - ∫ v du
+  Choose u = function that becomes simpler when differentiated
+  (LIATE rule: Logarithm, Inverse trig, Algebraic, Trig, Exponential)
+
+DEFINITE INTEGRALS
+  ∫_a^b f(x) dx = F(b) - F(a)  where F is the antiderivative
+  Area between curve and x-axis = |∫_a^b f(x) dx|
+
+═══════════════════════════════════════════════════════════════
+STATISTICS AND PROBABILITY
+═══════════════════════════════════════════════════════════════
+
+  Mean = (sum of all values) / number of values = Σx/n
+  Variance = Σ(x - x̄)² / n
+  Standard deviation = √variance
+  Probability: P(A) = number of favourable outcomes / total outcomes
+  P(A or B) = P(A) + P(B) - P(A and B)
+  P(A and B) = P(A) × P(B)  (if independent)
+  Conditional probability: P(A|B) = P(A and B) / P(B)
+
+BINOMIAL DISTRIBUTION
+  P(X = r) = C(n,r) × pʳ × (1-p)^(n-r)
+  Mean = np
+  Variance = np(1-p)
+
+═══════════════════════════════════════════════════════════════
+SEQUENCES AND SERIES
+═══════════════════════════════════════════════════════════════
+
+ARITHMETIC PROGRESSION
+  nth term: aₙ = a + (n-1)d
+  Sum of n terms: Sₙ = n/2 × (2a + (n-1)d) = n/2 × (first + last)
+  Where: a = first term, d = common difference
+
+GEOMETRIC PROGRESSION
+  nth term: aₙ = arⁿ⁻¹
+  Sum of n terms: Sₙ = a(rⁿ - 1)/(r - 1)  for r ≠ 1
+  Sum to infinity: S∞ = a/(1-r)  for |r| < 1
+  Where: a = first term, r = common ratio

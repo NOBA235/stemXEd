@@ -1,0 +1,221 @@
+PHYSICS MECHANICS — WORKED EXAMPLES
+Curriculum: NCERT, CBSE, IGCSE, AP
+
+These worked examples cover the most common problem types in mechanics.
+Each shows a complete solution with every step shown clearly.
+
+═══════════════════════════════════════════════════════════════
+KINEMATICS EXAMPLES
+═══════════════════════════════════════════════════════════════
+
+EXAMPLE 1: Object dropped from rest
+Topic: Free fall, kinematics
+Difficulty: Easy
+
+PROBLEM: A stone is dropped from the top of a building 45m tall.
+How long does it take to reach the ground? (g = 10 m/s²)
+
+SOLUTION:
+Given:
+  Initial velocity u = 0 (dropped from rest, not thrown)
+  Distance s = 45 m
+  Acceleration a = g = 10 m/s²
+
+We need: time t
+
+Using s = ut + ½at²
+  45 = 0 × t + ½ × 10 × t²
+  45 = 5t²
+  t² = 45/5 = 9
+  t = 3 seconds
+
+ANSWER: The stone takes 3 seconds to reach the ground.
+
+Key insight: When an object starts from rest (u = 0), the equation simplifies to s = ½at².
+The initial velocity term disappears, making the calculation much simpler.
+
+───────────────────────────────────────────────────────────────
+
+EXAMPLE 2: Object thrown upward
+Topic: Vertical projectile motion
+Difficulty: Medium
+
+PROBLEM: A ball is thrown vertically upward with velocity 20 m/s.
+Find: (a) maximum height, (b) time to reach maximum height, (c) total time of flight
+
+SOLUTION:
+Given: u = 20 m/s (upward), g = 10 m/s² (downward, so a = -10 m/s²)
+
+(a) Maximum height — at maximum height, velocity v = 0
+Using v² = u² + 2as:
+  0 = 20² + 2 × (-10) × s
+  0 = 400 - 20s
+  s = 400/20 = 20 m
+
+(b) Time to maximum height
+Using v = u + at:
+  0 = 20 + (-10) × t
+  10t = 20
+  t = 2 seconds
+
+(c) Total flight time
+By symmetry, time going up = time coming down
+Total time = 2 × 2 = 4 seconds
+
+ANSWER: Maximum height = 20 m, time up = 2 s, total flight = 4 s.
+
+Key insight: At maximum height, velocity = 0. Use this as your "final" condition.
+The flight is symmetric — time up equals time down.
+
+───────────────────────────────────────────────────────────────
+
+EXAMPLE 3: Horizontal projectile
+Topic: Projectile motion
+Difficulty: Medium
+
+PROBLEM: A ball rolls off a table 1.25m high with horizontal velocity 4 m/s.
+How far from the base of the table does it land? (g = 10 m/s²)
+
+SOLUTION:
+Horizontal and vertical motion are INDEPENDENT.
+
+Vertical (finding time to fall):
+  s = ut + ½gt²
+  1.25 = 0 + ½ × 10 × t²
+  1.25 = 5t²
+  t² = 0.25
+  t = 0.5 s
+
+Horizontal (finding range):
+  x = horizontal velocity × time
+  x = 4 × 0.5 = 2 m
+
+ANSWER: The ball lands 2 m from the base of the table.
+
+Key insight: Treat horizontal and vertical as completely separate problems.
+Find the time from the vertical motion, then use it for the horizontal calculation.
+
+═══════════════════════════════════════════════════════════════
+NEWTON'S LAWS EXAMPLES
+═══════════════════════════════════════════════════════════════
+
+EXAMPLE 4: Basic F = ma
+Topic: Newton's Second Law
+Difficulty: Easy
+
+PROBLEM: A 1200 kg car accelerates from 0 to 30 m/s in 10 seconds.
+What net force acts on the car?
+
+SOLUTION:
+First find acceleration:
+  a = (v - u) / t = (30 - 0) / 10 = 3 m/s²
+
+Then find force:
+  F = ma = 1200 × 3 = 3600 N
+
+ANSWER: The net force on the car is 3600 N.
+
+───────────────────────────────────────────────────────────────
+
+EXAMPLE 5: Block on frictionless surface
+Topic: Newton's Second Law, frictionless
+Difficulty: Easy
+
+PROBLEM: A 5 kg block is pushed with a 20 N force on a frictionless surface.
+Find the acceleration.
+
+SOLUTION:
+Since the surface is frictionless, the net force equals the applied force.
+  F_net = 20 N, m = 5 kg
+
+Using F = ma:
+  a = F/m = 20/5 = 4 m/s²
+
+ANSWER: The acceleration is 4 m/s².
+
+Key insight: On a frictionless surface, ALL the applied force goes into acceleration.
+No force is "wasted" overcoming friction.
+
+───────────────────────────────────────────────────────────────
+
+EXAMPLE 6: Block on surface WITH friction
+Topic: Newton's Second Law, friction
+Difficulty: Medium
+
+PROBLEM: A 10 kg block is pushed with 40 N force on a surface with μ = 0.2.
+Find the acceleration. (g = 10 m/s²)
+
+SOLUTION:
+Step 1: Find normal force
+  On flat surface: N = mg = 10 × 10 = 100 N
+
+Step 2: Find friction force
+  f = μN = 0.2 × 100 = 20 N
+
+Step 3: Find net force
+  F_net = Applied force - Friction = 40 - 20 = 20 N
+
+Step 4: Find acceleration
+  a = F_net / m = 20 / 10 = 2 m/s²
+
+ANSWER: The acceleration is 2 m/s².
+
+Key insight: The net force is what causes acceleration, not the applied force alone.
+Always subtract friction before applying F = ma.
+
+═══════════════════════════════════════════════════════════════
+MOMENTUM EXAMPLES
+═══════════════════════════════════════════════════════════════
+
+EXAMPLE 7: Conservation of momentum (collision)
+Topic: Momentum, conservation laws
+Difficulty: Medium
+
+PROBLEM: A 2 kg trolley moving at 6 m/s collides with a stationary 4 kg trolley.
+They stick together. Find their common velocity after collision.
+
+SOLUTION:
+Conservation of momentum: total momentum before = total momentum after
+
+Before collision:
+  p₁ = m₁u₁ = 2 × 6 = 12 kg m/s
+  p₂ = m₂u₂ = 4 × 0 = 0
+
+After collision (they stick, so same velocity v):
+  p_total = (m₁ + m₂) × v = (2 + 4) × v = 6v
+
+Setting equal:
+  6v = 12 + 0 = 12
+  v = 2 m/s
+
+ANSWER: They move together at 2 m/s.
+
+Key insight: When objects stick together (perfectly inelastic collision), 
+treat them as one combined mass after the collision.
+
+═══════════════════════════════════════════════════════════════
+ENERGY EXAMPLES
+═══════════════════════════════════════════════════════════════
+
+EXAMPLE 8: Energy conversion (roller coaster)
+Topic: Conservation of energy, KE and PE
+Difficulty: Medium
+
+PROBLEM: A 500 kg roller coaster car starts from rest at the top of a 30 m hill.
+What is its speed at the bottom? (ignore friction, g = 10 m/s²)
+
+SOLUTION:
+By conservation of energy: PE at top = KE at bottom
+
+PE at top = mgh = 500 × 10 × 30 = 150,000 J
+
+KE at bottom = ½mv²
+  150,000 = ½ × 500 × v²
+  150,000 = 250v²
+  v² = 600
+  v = √600 ≈ 24.5 m/s
+
+ANSWER: The speed at the bottom is approximately 24.5 m/s.
+
+Key insight: All the potential energy converts to kinetic energy (when friction is ignored).
+This is conservation of energy — energy changes form but the total stays the same.

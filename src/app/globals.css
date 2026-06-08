@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-syne: 'Syne', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 2px; }
+
+/* Grain */
+.grain-overlay {
+  position: fixed; inset: 0;
+  pointer-events: none; z-index: 9999;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 256px;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(90deg, #39ff8f, #00d4ff, #c77dff, #ff6b35);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 4s linear infinite;
+}
+
+/* Markdown solution styles */
+.solution-body h2 { @apply text-lg font-bold text-white mt-6 mb-3 flex items-center gap-2; }
+.solution-body h3 { @apply text-base font-semibold text-white/80 mt-4 mb-2; }
+.solution-body p  { @apply text-white/70 leading-relaxed mb-3 text-sm; }
+.solution-body ul { @apply list-disc list-inside text-white/70 mb-3 text-sm space-y-1; }
+.solution-body ol { @apply list-decimal list-inside text-white/70 mb-3 text-sm space-y-1; }
+.solution-body code { @apply bg-raised text-acid font-mono text-xs px-1.5 py-0.5 rounded; }
+.solution-body pre  { @apply bg-raised border border-white/10 rounded-lg p-4 mb-3 overflow-x-auto; }
+.solution-body pre code { @apply bg-transparent p-0; }
+.solution-body strong { @apply text-white font-semibold; }
+.solution-body hr { @apply border-white/10 my-4; }
+.solution-body blockquote { @apply border-l-2 border-violet pl-4 text-white/60 italic my-3; }
+
+/* Input focus ring */
+.focus-ring {
+  @apply outline-none ring-0 focus:ring-1 focus:ring-violet/50 transition-shadow;
+}
+
+/* ── KaTeX overrides — dark theme ─────────────────────────── */
+/* Load KaTeX CSS from CDN (add to layout <head> as well) */
+
+.math-renderer .katex {
+  font-size: 1.05em;
+  color: #e8e8f0;
+}
+
+/* Inline math — sits naturally in text */
+.math-renderer .katex-inline,
+.math-renderer .math-inline .katex {
+  color: #c4b5fd;   /* soft violet for inline equations */
+  padding: 0 2px;
+}
+
+/* Block / display math — centred, larger, with breathing room */
+.math-renderer .math-display {
+  overflow-x: auto;
+  padding: 16px 12px;
+  margin: 16px 0;
+  background: #0d0d1a;
+  border: 1px solid rgba(199, 125, 255, 0.18);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.math-renderer .math-display .katex {
+  font-size: 1.15em;
+  color: #e0d7ff;
+}
+
+/* KaTeX error styling */
+.math-renderer .katex-error {
+  color: #ff3b5c;
+  font-family: var(--font-mono);
+  font-size: 0.75em;
+}
+
+/* Fraction bars — make them more visible on dark bg */
+.math-renderer .katex .frac-line {
+  border-bottom-color: #c4b5fd;
+}
+
+/* Square roots */
+.math-renderer .katex .sqrt > .root {
+  color: #93c5fd;
+}
+
+/* Summation / integral symbols */
+.math-renderer .katex .op-symbol {
+  color: #34d399;
+}
+
+/* Cursor blink animation for streaming */
+@keyframes cursor-blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+/* Solution-specific step styling */
+.math-renderer h2:has(+ *) {
+  position: relative;
+}
+
+/* Step number badges in solution headers */
+.math-renderer h3 {
+  counter-increment: step;
+}
